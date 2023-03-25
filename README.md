@@ -68,3 +68,23 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### Installation
+
+To start using the React application, first, you need to install the necessary dependencies. You can do this by running the following command in the terminal:
+
+npm install 
+
+### Configuration
+
+The React application relies on a back-end API for data. In order to connect the React application with the back-end, you will need to specify the API URL in the config.js file located in the root directory of the application.
+
+Open the config.js file and replace the API_URL placeholder with the URL of the back-end API:
+
+const config = {
+  API_URL: 'http://localhost:8000/api', // Replace with your API URL
+};
+
+export default config;
+
